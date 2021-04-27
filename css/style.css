@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css?family=Rokkitt|Solway&display=swap'
+);
+
+body{
+    font-family: 'Rokkitt', serif;
+    font-size:1.2em;
+}
+#forma{
+    font-size:20px;
+}
+ul{
+    list-style-type:none;
+   }
+   a{
+    text-decoration:none;
+    color:#252525;
+    font-size:1em;
+   }
+   .linkH a{
+    text-decoration:none;
+    color:#252525;
+   }
+   h1{
+    font-size: 160%;
+   }
+   #navigacija{
+    display: flex;
+    justify-content: center;
+   }
+   #navigacija li{
+    margin-left:10px;
+    margin-right: 10px;
+   }
+   #navigacija li a {
+    color: #252525;
+    display: inline-block;
+    font-size:1.1em;
+   text-decoration: none;
+    text-transform: uppercase;
+   }
+.nevidljiv{
+    display:none;
+}
+.vidljiv{
+    display:block;
+}
+.greske{
+    display:none;
+    color:red;
+}
+.red{
+    color:red;
+}
+input[type="text"] {
+    width: 100%;
+    font-family: 'Rokkitt', serif;
+    background-color: #231f20;
+    margin-top: 15px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: #000000;
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgba(216, 216, 216, 0.5);
+    outline: 0; }
+    textarea {
+    width: 100%;
+    font-family: 'Rokkitt', serif;
+    background-color: #231f20;
+    margin-top: 15px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: #000000;
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgba(216, 216, 216, 0.5);
+    outline: 0;
+    resize: none; }
+    .button {
+    width: 20%;
+    margin-top: 15px;
+    margin-left: 80%;
+    background-color: rgba(216, 216, 216, 0.5);
+    font-size: 20px;
+    color: #231f20;
+    border:rgba(216, 216, 216, 0.5);
+    text-align:center;
+    padding:1%;
+    outline: 0;
+   }
+label{
+    color:rgb(110, 110, 110);
+}
+#forma{
+    color:rgb(110, 110, 110);
+}
+#formaDodaj{
+    color:rgb(110, 110, 110);
+}
+.greska{
+    display:none;
+    color:red;
+}
+#greskaIme{
+    display:none;
+    color:red;
+}
+#greskaPrezime{
+display:none;
+    color:red;
+}
+#greskaEmail{
+    display:none;
+    color:red;
+}
+#greskaUser{
+    display:none;
+    color:red;
+}
+#greskaPol{
+    display:none;
+    color:red;
+}
+#greskaLoz{
+    display:none;
+    color:red;
+}
+#greskaUloga{
+     display:none;
+    color:red;
+}
+#greskaPoruka{
+     display:none;
+    color:red;
+}
+#greskaImeA{
+    display:none;
+    color:red;
+}
+#greskaPrezimeA{
+display:none;
+    color:red;
+}
+#greskaEmailA{
+    display:none;
+    color:red;
+}
+#greskaUserA{
+    display:none;
+    color:red;
+}
+#greskaUlogaA{
+    display:none;
+    color:red;
+}
+#greskaLozA{
+    display:none;
+    color:red;
+}
+#ddlUloga{
+    width: 100%;
+    font-family: 'Rokkitt', serif;
+    background-color: #231f20;
+    margin-top: 15px;
+    padding-top: 10px;
+    font-size: 20px;
+    color:rgb(110, 110, 110);
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgba(216, 216, 216, 0.5);
+    outline: 0; 
+}
+   input[type="password"] {
+    width: 100%;
+    font-family: 'Rokkitt', serif;
+    background-color: #231f20;
+    margin-top: 15px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: #000000;
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgba(216, 216, 216, 0.5);
+    outline: 0; }
+.dugme{
+    width: 24%;
+    margin-top: 15px;
+    /* margin-left: 80%; */
+    background-color: rgba(216, 216, 216, 0.5);
+    font-size: 20px;
+    color: #231f20;
+    border: rgba(216, 216, 216, 0.5);
+    text-align:center;
+    padding:2%;
+    outline:none; 
+} 
+#pitanja a{
+    text-decoration: none;
+    color:#000000;
+}
+#kviz a{
+    text-decoration: none;
+    color:#000000;
+}
+#futer{
+    display: flex;
+    justify-content: center;
+   }
+   #futer li{
+    margin-left:10px;
+    margin-right: 10px;
+   }
+   #futer li a {
+    color: #252525;
+    display: inline-block;
+    font-size: 18px;
+   text-decoration: none;
+    text-transform: uppercase;
+   }
+#stil{
+    background-color:rgba(216, 216, 216, 0.5);
+}
+#nav{
+    display:none;
+    }
+#nav a{
+    text-decoration: none;
+    color:#000000;
+}
+#nav li a{
+    text-decoration: none;
+    color: #252525;
+}
+.hamburger
+{
+ font-size:205%;
+}
+@media screen and (max-width: 740px){
+    #nav{
+    display:block;
+    }
+    #meni{
+    display:none;
+    }
+   }
+.stranice a{
+    text-decoration: none;
+    color:#000000;
+}
+#tabela a{
+    text-decoration: none;
+    color:#000000;
+}
+#linkBz a{
+    text-decoration: none;
+    color:#000000;
+}
+#ddlUlogaK{
+    width: 100%;
+    font-family: 'Rokkitt', serif;
+    background-color: #231f20;
+    margin-top: 15px;
+    padding-top: 10px;
+    font-size: 20px;
+    color:rgb(110, 110, 110);
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgba(216, 216, 216, 0.5);
+    outline:none; 
+}
+button:focus{
+    outline:none;
+}
+.boja1{
+    color:blue;
+}
+.boja2{
+    color:#7F3B37;
+}
+.boja3{
+    color:#B2957F;
+}
+.boja4{
+    color:#4D7B30;
+}
+.boja5{
+    color:#B3AFA8;
+}
